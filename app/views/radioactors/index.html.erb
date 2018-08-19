@@ -1,0 +1,5 @@
+
+
+<% @radioactors.each do |radioactor| %>
+<p><%= link_to radioactor.name , radioactor_path(radioactor.id) %></p>
+<% end %>

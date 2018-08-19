@@ -1,0 +1,11 @@
+
+<%= @games.each do |game| %>
+
+<p><%= game.name %></p>
+
+<% game.gameasps.each do |gameasp| %>
+<p><%= gameasp.price %></p>
+<p><%= gameasp.url %></p>
+<% end %>
+
+<% end %>
